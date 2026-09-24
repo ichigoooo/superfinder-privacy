@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SuperFinder 隐私政策 · Privacy Policy</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font: -apple-system, "PingFang SC", "Helvetica Neue", sans-serif; max-width: 720px;
+         margin: 0 auto; padding: 24px 20px 64px; line-height: 1.7; color: #1d1d1f; }
+  h1 { font-size: 1.6em; }
+  h2 { font-size: 1.15em; margin-top: 1.8em; border-bottom: 1px solid #d2d2d7; padding-bottom: .3em; }
+  .en { border-top: 2px solid #d2d2d7; margin-top: 3em; padding-top: 1em; }
+  .summary { background: #f5f5f7; border-radius: 12px; padding: 14px 18px; font-weight: 600; }
+  footer { margin-top: 4em; font-size: .85em; color: #6e6e73; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f5f5f7; } h2 { border-color: #424245; } .summary { background: #1d1d1f; }
+  }
+</style>
+</head>
+<body>
+
+<h1>SuperFinder 隐私政策</h1>
+<p>适用版本：1.0.0 起全部版本 · 生效日期：2026-09-24 · 开发者：wuyuheng（个人开发者）</p>
+
+<p class="summary">SuperFinder 不收集任何数据。所有文件浏览与整理都在你的 Mac 本机完成，应用不包含任何联网代码。</p>
+
+<h2>1. 我们不收集任何个人信息</h2>
+<p>SuperFinder 不收集、不上传、不分享任何个人信息。应用没有账号系统、没有云端服务、没有统计分析 SDK、没有广告组件、没有崩溃收集器。你在应用中的全部操作（浏览、重命名、移动、暂存、预览）都不会产生任何离开你设备的数据。</p>
+
+<h2>2. 零网络（工程实证）</h2>
+<p>应用源码不包含任何网络编程接口调用（无 URLSession / NSURLSession / CFNetwork 等），编译产物亦不链接任何网络框架。这是可以核查的工程事实，不是单方面承诺——App Store 上的应用包均受代码签名保护，与声明的行为一致。</p>
+
+<h2>3. 文件访问仅限你授权的工作区</h2>
+<p>SuperFinder 遵循 macOS App Sandbox（应用沙盒）模型：</p>
+<ul>
+<li>应用<b>无法</b>访问你的整个磁盘，也不申请「完全磁盘访问」权限；</li>
+<li>只有你在首次启动向导或设置中<b>亲自选择并授权</b>的文件夹（工作区）会被读取；</li>
+<li>授权关系通过 macOS 系统的安全作用域书签机制保存在本机，你可以随时在设置的「工作区」页移除任何授权；</li>
+<li>应用自身的数据（书签、暂存架、最近访问）保存在系统分配的应用容器内，卸载应用即随之删除。</li>
+</ul>
+
+<h2>4. 无追踪、无画像</h2>
+<p>应用不使用任何跟踪技术，不与任何第三方共享数据，不参与「跨应用追踪」。应用内嵌的隐私清单（PrivacyInfo.xcprivacy）已向 App Store 声明：不追踪、不收集数据类型为空。</p>
+
+<h2>5. 系统权限使用清单</h2>
+<p>应用不申请以下任何权限：相机、麦克风、通讯录、位置、照片图库、完全磁盘访问、辅助功能、自动化控制。应用仅在你主动操作时使用 macOS 标准的文件选择面板（由系统代为展示）。</p>
+
+<h2>6. 儿童与年龄分级</h2>
+<p>本应用不收集数据，适合所有年龄段使用（App Store 年龄分级 4+）。</p>
+
+<h2>7. 政策变更</h2>
+<p>若未来版本改变上述任何行为（例如引入可选的联网功能），本政策将先行更新并在应用发布说明中明确告知。</p>
+
+<h2>8. 联系方式</h2>
+<p>开发者：wuyuheng（个人开发者）<br>联系邮箱：w843085105@163.com</p>
+
+<section class="en" lang="en">
+<h1>SuperFinder Privacy Policy</h1>
+<p>Applies to version 1.0.0 and later · Effective 2026-09-24 · Developer: wuyuheng (individual developer)</p>
+
+<p class="summary">SuperFinder collects no data. All file browsing and organizing happens locally on your Mac. The app contains no networking code.</p>
+
+<h2>1. No personal data collected</h2>
+<p>SuperFinder has no accounts, no cloud services, no analytics SDKs, no ads, and no crash reporters. Nothing you do in the app ever leaves your device.</p>
+
+<h2>2. Zero networking (verifiable)</h2>
+<p>The source code contains no networking APIs (no URLSession / NSURLSession / CFNetwork), and the compiled binary links no networking frameworks. This is a checkable engineering fact, not just a promise.</p>
+
+<h2>3. File access limited to folders you grant</h2>
+<p>SuperFinder uses the macOS App Sandbox model. It cannot read your whole disk and never asks for Full Disk Access. Only folders you explicitly authorize (via the first-launch wizard or Settings → Workspaces) are read. Grants are stored locally as security-scoped bookmarks and can be removed at any time. The app's own data lives in its sandbox container and is deleted when you uninstall the app.</p>
+
+<h2>4. No tracking, no profiling</h2>
+<p>No tracking technologies are used and no data is shared with third parties. The bundled privacy manifest (PrivacyInfo.xcprivacy) declares to the App Store: no tracking, no collected data types.</p>
+
+<h2>5. System permissions</h2>
+<p>The app requests none of: camera, microphone, contacts, location, photo library, full disk access, accessibility, or automation. It only uses the standard macOS file picker, presented by the system, when you act.</p>
+
+<h2>6. Children &amp; age rating</h2>
+<p>Suitable for all ages (App Store rating 4+).</p>
+
+<h2>7. Changes</h2>
+<p>If a future version changes any behavior above, this policy will be updated first and called out in release notes.</p>
+
+<h2>8. Contact</h2>
+<p>Developer: wuyuheng (individual developer). Email: [to be filled before ASC submission]</p>
+</section>
+
+<footer>部署说明：把本文件改名为 index.html 上传至任意静态托管即可（GitHub Pages / 对象存储等，两步发布法见槽内 privacy-policy.md 托管 runbook）。</footer>
+
+</body>
+</html>
